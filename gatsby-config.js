@@ -5,7 +5,7 @@ module.exports = {
       name: `Michael Myers`,
       summary: `- front-end developer, blogger, gamer`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Front-end Developer Blog`,
     siteUrl: `https://devmoek.com`,
     social: {
       twitter: `devmoek`,
