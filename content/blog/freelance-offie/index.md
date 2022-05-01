@@ -25,4 +25,4 @@ Freelance is a freedom. Yes and no. Freelance meaning you will be alone and you 
 This is the main question of this article. Is it effective? I think yes. You can earn up to 2x minimum, having good projects, meet awesome people (sometimes not so awesome). But you will take more time just working. You will work at full-time job and work right after it. It’s hard if you will do it every day. I’m spending 2 hours per day on a freelance and at this moment it works well. I will say later how it goes. Stay tuned!
 
 ## Overall
-Thank you reading this article! I so appreciate your support. Thanks for everything. moek
+Freelance is an insteresting way. It can boost your experience like twice. If you have an offer, reach me by email [freelance@devmoek.com](mailto:freelance@devmoek.com)
