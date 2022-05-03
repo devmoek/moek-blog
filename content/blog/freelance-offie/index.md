@@ -2,7 +2,6 @@
 title: Freelance vs Office?
 date: "2022-05-01T22:12:03.284Z"
 description: "Is it really effective to have a full-time job and right after the job complete orders on freelance?"
-featuredImage: ../../images/gatsby-icon.png
 ---
 
 ## How I started
@@ -18,7 +17,7 @@ That’s the main question. I can’t answer like you need to work in an office 
 ## Benefits of working in office
 First things first are working in an office is good for people who like communication. You have a lot of smart people around you. I had 5 backend guys in a room, there are 6 computers. That means I was the only frontend guy in the room. Every guy has unique information and experience. Just think about it. The second benefit is a kitchen where every day you can find snacks, milk, water, etc. The third benefit of working in an office is table tennis. I’m not sure all companies have it. But maybe your company has a pool table. The fourth benefit is a library. In our company we can take a book from the library and take it home and read it everywhere we need to. I think it’s super cool.
 
-## Benefits of working freelance
+## Benefits of freelance
 Freelance is freedom. Yes and no. Freelance means you will be alone and you can’t cancel an order without rating impact. The first benefit is a work schedule. You can work 2 hours a day or 12 hours a day. You can wake up at 5 AM or 2 PM. You are the boss of your work. The second benefit is interesting projects. You will have customers from all over the world with different requests from pet houses to divorce calculators. I’m saying about website creation. All I can say is just do want you like.
 
 ## Working freelance and at home really effective?
