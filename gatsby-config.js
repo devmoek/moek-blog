@@ -3,7 +3,7 @@ module.exports = {
     title: `moek's blog`,
     author: {
       name: `Michael Myers`,
-      summary: `- front-end developer, blogger, gamer`,
+      summary: `- front-end developer, blogger, gamer.`,
     },
     description: `Front-end Developer Blog`,
     siteUrl: `https://devmoek.com`,
