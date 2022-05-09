@@ -17,9 +17,7 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          "G-PX93XSEK1D", // Google Analytics / GA
-          "AW-CONVERSION_ID", // Google Ads / Adwords / AW
-          "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+          "G-PX93XSEK1D", // Google Analytics
         ],
         // This object is used for configuration specific to this plugin
         pluginConfig: {
@@ -48,6 +46,14 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: "gatsby-remark-code-buttons",
+            options: {
+              tooltipText: `Copy to clipboard`,
+              toasterText: "Copied to clipboard",
+              toasterDuration: 3500,
+            },
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
