@@ -13,10 +13,6 @@ If you don’t have Node.js on you computer [install Node.js from the official w
 
 If you already have a Node.js on your computer check the version:
 
-```js
-alert('click to copy 💾');
-```
-
 ```
 node -v
 ```
