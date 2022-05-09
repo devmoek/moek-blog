@@ -22,7 +22,6 @@ export default function About({data, title, location}) {
                 
                 <h2>Tech Stack</h2>
                 <p>Currently, I'm working with Shopify and learning technologies in this major to be able to work with Shopify custom Storefronts. This is why my stack is: HTML, CSS, JS, Shopify, liquid, JSON, jQuery. </p>
-                
             </Layout>    
         </div>
     )

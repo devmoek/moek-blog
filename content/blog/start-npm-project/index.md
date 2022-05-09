@@ -13,6 +13,10 @@ If you don’t have Node.js on you computer [install Node.js from the official w
 
 If you already have a Node.js on your computer check the version:
 
+```js
+alert('click to copy 💾');
+```
+
 ```
 node -v
 ```
@@ -90,7 +94,7 @@ And you can see a new folder in your project called `node_modules`. You don’t 
 
 Package.json have a special section called `scripts`. In this section you can set different scripts for launching.
 
-```
+```js
 {
   "scripts": {
     "lint": "eslint"
