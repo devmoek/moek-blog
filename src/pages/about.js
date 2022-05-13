@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Seo from "../components/seo"
+import { Link } from 'gatsby'
+import Seo from '../components/seo'
 
 export default function About({data, title, location}) {
 
@@ -22,6 +23,15 @@ export default function About({data, title, location}) {
                 
                 <h2>Tech Stack</h2>
                 <p>Currently, I'm working with Shopify and learning technologies in this major to be able to work with Shopify custom Storefronts. This is why my stack is: HTML, CSS, JS, Shopify, liquid, JSON, jQuery. </p>
+
+                <h2>My Social Media</h2>
+                <div className='social-media-links flex flex-col'>
+                    <Link className='text-blue-600 hover:underline visited:text-purple-600' to="https://linkedin.com/in/devmoek">Linkedin</Link>  
+                    <Link className='text-blue-600 hover:underline visited:text-purple-600' to="https://github.com/devmoek">GitHub</Link>
+                    <Link className='text-blue-600 hover:underline visited:text-purple-600' to="https://facebook.com/developermoek">Facebook</Link>
+                    <Link className='text-blue-600 hover:underline visited:text-purple-600' to="https://twitter.com/devmoek">Twitter</Link>       
+                </div>
+
             </Layout>    
         </div>
     )
