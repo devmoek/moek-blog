@@ -47,6 +47,12 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-plugin-google-adsense`,
+            options: {
+              publisherId: `ca-pub-3878993256268161`
+            },
+          },
+          {
             resolve: "gatsby-remark-code-buttons",
             options: {
               tooltipText: `Copy to clipboard`,
