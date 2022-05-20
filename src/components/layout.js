@@ -29,8 +29,7 @@ const Layout = ({ location, title, children }) => {
       <nav><Navbar /></nav>
       <main>{children}</main>
       <footer>
-        © <Link className="hover:underline" to="https://twitter.com/devmoek" >moek</Link> {new Date().getFullYear()}
-        {` `}
+        © <a className="hover:underline" href="https://twitter.com/devmoek" >moek</a> {new Date().getFullYear()}
       </footer>
     </div> 
   )
