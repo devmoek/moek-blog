@@ -1,5 +1,5 @@
 ---
-title: Freelance vs Office?
+title: Freelance vs Office
 date: "2022-05-01T22:12:03.284Z"
 description: "Is it really effective to have a full-time job and right after the job complete orders on freelance?"
 ---
