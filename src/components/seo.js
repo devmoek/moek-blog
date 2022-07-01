@@ -19,8 +19,24 @@ const Seo = ({ title, description, lang, meta }) => {
             title
             description
             keywords
+            author {
+              name
+            }
             social {
               twitter
+            }
+          }
+        }
+        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+          nodes {
+            excerpt
+            fields {
+              slug
+            }
+            frontmatter {
+              date(formatString: "MMMM DD, YYYY")
+              title
+              description
             }
           }
         }

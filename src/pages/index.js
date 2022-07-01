@@ -3,22 +3,6 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Helmet from "react-helmet"
-
-const description = 'Hello, my name is Mike';
-class Application extends React.Component {
-  render() {
-    return (
-      <div className="application">
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>moek's blog - front-end developer</title>
-          <p>{ description }</p>
-        </Helmet>
-      </div>
-    )
-  }
-}
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -78,8 +62,6 @@ const BlogIndex = ({ data, location }) => {
 }
 
 export default BlogIndex
-
-console.log(description);
 
 export const pageQuery = graphql`
   query {
