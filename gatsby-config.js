@@ -6,6 +6,7 @@ module.exports = {
       summary: `- front-end developer, blogger, gamer.`,
     },
     description: `Front-end Developer Blog`,
+    keywords: `frontend developer, shopify developer, development, web development, shopify development`,
     siteUrl: `https://devmoek.com`,
     social: {
       twitter: `devmoek`,
