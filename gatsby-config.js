@@ -5,8 +5,8 @@ module.exports = {
       name: `Michael Myers`,
       summary: `- front-end developer, blogger, gamer.`,
     },
-    description: `Front-end Developer Blog`,
-    keywords: `frontend developer, shopify developer, development, web development, shopify development`,
+    description: `Front-end developer blog. Writing articles about Shopify Development, Front-end Development, Freelance, and much more.`,
+    keywords: `frontend developer, shopify developer, web development, shopify development, web dev, moek, devmoek, michael myers`,
     siteUrl: `https://devmoek.com`,
     social: {
       twitter: `devmoek`,
