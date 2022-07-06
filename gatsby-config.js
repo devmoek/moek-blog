@@ -22,7 +22,6 @@ module.exports = {
         ],
         // This object is used for configuration specific to this plugin
         pluginConfig: {
-          // Puts tracking script in the head instead of the body
           head: true,
         },
       },
@@ -41,6 +40,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mailchimp`,
+      options: {
+          endpoint: 'https://devmoek.us8.list-manage.com/subscribe/post?u=360225bc4f158b661f7ab786b&amp;id=d90ba940f5',
+          timeout: 3500,
       },
     },
     {

@@ -3,13 +3,12 @@ import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import Seo from '../components/seo'
 
-export default function About({data, title, location}) {
+export default function About({location}) {
 
     return (
         <div className='container mx-auto'>
             <Seo title='About Page' />
-            <Layout title="moek's blog" location={location}>
-                <h1>About</h1>
+            <Layout title="About" location={location}>
                 <h2>Who is moek?</h2>
                 <p>moek is a guy with a passion for coding and learning new technologies to improve his web dev skills.</p>
                 <p>moek is a dude who wants to change the world</p>

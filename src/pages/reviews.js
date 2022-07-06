@@ -4,14 +4,13 @@ import { StaticImage } from "gatsby-plugin-image"
 import Seo from '../components/seo'
 import { Link } from 'gatsby'
 
-const Reviews = ({data, title, location}) => {
+const Reviews = ({location}) => {
     return ( 
         <div className='container mx-auto'>
             <Seo title="Reviews Page" />
-            <Layout title="moek's blog" location={ location }>
-                <h1>Reviews about moek</h1>
+            <Layout title="Reviews" location={ location }>
                 <StaticImage src='../images/first.png' alt='reviews' />
-                <p>I frelanced on Fiverr and have some reviews on it.</p>
+                <h2>These are what people said about my work</h2>
                 <StaticImage src='../images/second.png' alt='reviews' />
                 <StaticImage className='mt-5' src='../images/third.png' alt='reviews' />
                 <StaticImage className='mt-5' src='../images/fourth.png' alt='reviews' />
