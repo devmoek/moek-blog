@@ -4,6 +4,7 @@ date: "2022-05-03T22:12:03.284Z"
 description: "A lot of developers use npm for their projects. Npm is so useful feature for programmers. So how to install npm on your machine? How to packages?"
 tags: ["npm", "nodejs", "webdevelopment"]
 canonical: "https://blog.devmoek.com/how-to-start-npm-project"
+slug: how-to-start-npm-project
 ---
 
 ## Step 1. Install Node.js

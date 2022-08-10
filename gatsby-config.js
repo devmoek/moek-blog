@@ -3,13 +3,16 @@ module.exports = {
     title: `moek's blog`,
     author: {
       name: `Michael Myers`,
-      summary: `- front-end developer, blogger, gamer.`,
+      summary: `- Professional Front-end Developer`,
     },
     description: `Front-end developer blog. Writing articles about Shopify Development, Front-end Development, Freelance, and much more.`,
     keywords: `frontend developer, shopify developer, web development, shopify development, web dev, moek, devmoek, michael myers`,
     siteUrl: `https://devmoek.com`,
     social: {
       twitter: `devmoek`,
+      youtube: `c/UCJ7a90E4ZflmScpRxfyyeCw`,
+      medium: `@devmoek`,
+      instagram: `moekishappy`
     },
   },
   plugins: [
@@ -50,21 +53,14 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        plugins: [
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-plugin-google-adsense`,
             options: {
               publisherId: `ca-pub-3878993256268161`
-            },
-          },
-          {
-            resolve: "gatsby-remark-code-buttons",
-            options: {
-              tooltipText: `Copy to clipboard`,
-              toasterText: "Copied to clipboard",
-              toasterDuration: 3500,
             },
           },
           {
@@ -79,11 +75,21 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: "carbon",
+              theme: "dracula",
+              lineNumbers: true
+            },
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
       },
+    },
+    {
+      resolve: 'gatsby-plugin-mdx-frontmatter'
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -104,8 +110,8 @@ module.exports = {
         `,
         feeds: [
           {
-            serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.nodes.map(node => {
+            serialize: ({ query: { site, allMdx } }) => {
+              return allMdx.nodes.map(node => {
                 return Object.assign({}, node.frontmatter, {
                   description: node.excerpt,
                   date: node.frontmatter.date,
@@ -117,7 +123,7 @@ module.exports = {
             },
             query: `
               {
-                allMarkdownRemark(
+                allMdx(
                   sort: { order: DESC, fields: [frontmatter___date] },
                 ) {
                   nodes {

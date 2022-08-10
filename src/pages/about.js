@@ -1,36 +1,24 @@
 import React from 'react'
 import Layout from '../components/layout'
-import { Link } from 'gatsby'
 import Seo from '../components/seo'
+import Social from '../components/social'
 
 export default function About({location}) {
 
     return (
         <div className='container mx-auto'>
             <Seo title='About Page' />
-            <Layout title="About" location={location}>
-                <h2>Who is moek?</h2>
-                <p>moek is a guy with a passion for coding and learning new technologies to improve his web dev skills.</p>
-                <p>moek is a dude who wants to change the world</p>
-                <p>moek is a person who loves what he do</p>
-                <p>moek is a front-end developer</p>
-                <p>moek is a professional</p>
-                <p>moek is a freelancer</p>
-
-                <p>Okay, with no joke, moek is me. My name is Michael Myers. I'm 21 years old. I love coding, sport, gaming, travel and a lot of things.</p>
-                <p> I started my coding journey in 2020. In those times I realized what I want to do in my life - Web Development. I'm in love in front-end and every day I learn new things that are super excited for me. </p>
+            <Layout title="moek's blog" location={location}>
+                <h2>Who Am I</h2>
+                <p>Name's Michael Myers, 21 y.o. A Front-end Developer & Shopify Developer with over 3 years of experience. Currently working in a small agency. My job is to customize Shopify themes like to create new sections, blocks, templates, and so on. </p>
+                <p>In my free time I like to shoot videos on YouTube. I have three YouTube channels. But actively posting on one because don't have enough time. I have a blog, I love sharing information and help people. Also I love sport. BMX, skateboard, running, cycling are my passion.</p>
                 
                 <h2>Tech Stack</h2>
-                <p>Currently, I'm working with Shopify and learning technologies in this major to be able to work with Shopify custom Storefronts. This is why my stack is: HTML, CSS, JS, Shopify, liquid, JSON, jQuery. </p>
+                <p>HTML, CSS, JS, Shopify, liquid, JSON, jQuery. </p>
 
                 <h2>My Social Media</h2>
-                <div className='social-media-links flex flex-col'>
-                    <Link className='text-blue-600 hover:underline visited:text-purple-600' to="https://linkedin.com/in/devmoek">Linkedin</Link>  
-                    <Link className='text-blue-600 hover:underline visited:text-purple-600' to="https://github.com/devmoek">GitHub</Link>
-                    <Link className='text-blue-600 hover:underline visited:text-purple-600' to="https://facebook.com/developermoek">Facebook</Link>
-                    <Link className='text-blue-600 hover:underline visited:text-purple-600' to="https://twitter.com/devmoek">Twitter</Link>       
-                </div>
-
+                
+                <Social />
             </Layout>    
         </div>
     )

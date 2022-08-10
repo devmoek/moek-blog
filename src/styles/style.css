@@ -64,6 +64,8 @@
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
+  --color-link: blue;
+  --color-visited-link: purple;
 }
 
 /* HTML elements */
@@ -232,7 +234,6 @@ table thead tr th {
 }
 
 /* Link */
-
 a {
   color: var(--color-primary);
 }
@@ -261,6 +262,18 @@ a:focus {
 .main-heading {
   font-size: var(--fontSize-7);
   margin: 0;
+}
+
+.header-link-home {
+  color: var(--color-primary);
+}
+
+.blog-post a {
+  color: var(--color-link);
+}
+
+.blog-post a:visited {
+  color: var(--color-visited-link);
 }
 
 .post-list-item {

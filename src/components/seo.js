@@ -17,10 +17,12 @@ const Seo = ({ title, description, lang, meta }) => {
             }
             social {
               twitter
+              youtube
+              medium
             }
           }
         }
-        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+        allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
           nodes {
             excerpt
             fields {
@@ -76,6 +78,10 @@ const Seo = ({ title, description, lang, meta }) => {
         {
           name: `twitter:creator`,
           content: site.siteMetadata?.social?.twitter || ``,
+        },
+        {
+          name: `youtube:creator`,
+          content: site.siteMetadata?.social?.youtube || ``,
         },
         {
           name: `twitter:title`,
