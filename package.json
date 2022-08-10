@@ -23,7 +23,6 @@
     "gatsby-plugin-image": "^2.6.0",
     "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "^4.6.0",
-    "gatsby-plugin-material-ui": "^4.0.2",
     "gatsby-plugin-mdx": "^3.19.0",
     "gatsby-plugin-mdx-frontmatter": "^0.0.4",
     "gatsby-plugin-offline": "^5.6.0",
