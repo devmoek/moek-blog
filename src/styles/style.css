@@ -99,6 +99,23 @@ hr {
   border: 0;
 }
 
+ol, ul {
+  list-style: auto;
+}
+
+code {
+  border-radius: 0.25rem;
+  padding: 3px 6px;
+  overflow: auto;
+  background: #f0efed;
+  white-space: pre;
+  tab-size: 4;
+  white-space: pre;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+}
+
 /* Heading */
 
 h1,
